@@ -21,7 +21,7 @@ spec:
         app: ecsdemo-frontend
     spec:
       containers:
-      - image: gekart/ecsdemo-frontend:latest
+      - image: gekart/ecsdemo-frontend:v4
         imagePullPolicy: Always
         name: ecsdemo-frontend
         ports:
